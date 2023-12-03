@@ -1,5 +1,3 @@
-
-
 use std::fs;
 
 fn main() {
@@ -71,8 +69,6 @@ fn main() {
         }
 
         let str_num = lnum + &rnum;
-
-        // println!("\n{}\n", str_num);
 
         let int_val: i32 = str_num.parse().unwrap();
 
